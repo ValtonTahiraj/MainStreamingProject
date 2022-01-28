@@ -1,0 +1,14 @@
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\bin\Debug\netcoreapp3.1\ChatClient.exe
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\bin\Debug\netcoreapp3.1\ChatClient.deps.json
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\bin\Debug\netcoreapp3.1\ChatClient.runtimeconfig.json
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\bin\Debug\netcoreapp3.1\ChatClient.runtimeconfig.dev.json
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\bin\Debug\netcoreapp3.1\ChatClient.dll
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\bin\Debug\netcoreapp3.1\ChatClient.pdb
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.csproj.AssemblyReference.cache
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.AssemblyInfoInputs.cache
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.AssemblyInfo.cs
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.csproj.CoreCompileInputs.cache
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.dll
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.pdb
+H:\MainStreamingProject\ValtonTahiraj\MainStreamingProject\ChatClient\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.genruntimeconfig.cache
