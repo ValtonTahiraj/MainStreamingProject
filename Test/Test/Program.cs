@@ -1,0 +1,24 @@
+
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+
+
+namespace ChatServer
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            new Server.Server();
+            CreateHostBuilder(args).Build().Run();
+            
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
+}

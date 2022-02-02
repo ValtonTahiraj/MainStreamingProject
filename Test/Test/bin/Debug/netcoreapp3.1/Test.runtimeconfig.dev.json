@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Valton\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Valton\\.nuget\\packages"
+    ]
+  }
+}

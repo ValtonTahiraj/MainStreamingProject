@@ -29,12 +29,13 @@ namespace ChatClient
                 // Get a client stream for reading and writing.
                 new Transmitter(username, stream);
                 string toSend = "";
-                while (!toSend.Contains("/exit"))
+                while (true)
                 {
                     Console.Write(username+": ");
                     toSend = Console.ReadLine();
                     new Transmitter(toSend, stream);
                 }
+                Console.WriteLine("Connessione interrotta");
                 
             }
             catch (Exception e)
@@ -80,9 +81,9 @@ namespace ChatClient
             {
                 // Buffer for reading data
                 Byte[] bytes = new Byte[256];
-                string receivedMessage = null;
+                string receivedMessage = "";
 
-                while (true)
+                while (!receivedMessage.Contains("/exit"))
                 {
                     int j;
                     // Loop to receive all the data sent by the client.
@@ -90,28 +91,23 @@ namespace ChatClient
                     {
                         // Translate data bytes to a ASCII string.
                         receivedMessage = System.Text.Encoding.ASCII.GetString(bytes, 0, j);
-                        Console.WriteLine("Received: {0}", receivedMessage);
-                    }
-                    if (receivedMessage.Contains("/exit"))
-                    {
-                        Console.WriteLine("Connessione interrotta");
-                        break;
-                    }
-
+                        Console.WriteLine("\n"+receivedMessage);
+                        
+                    }             
 
                 }
+                Console.WriteLine("Connessione interrotta");
 
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore");
-                stream.Close();
-                socket.Close();
+                Console.WriteLine(ex.ToString());
             }
             finally
             {
                 stream.Close();
                 socket.Close();
+                Environment.Exit(0);
             }
 
         }
@@ -138,7 +134,7 @@ namespace ChatClient
             catch (Exception e)
             {
                 //Da migliorare
-
+                Console.WriteLine(e.ToString());
                 Environment.Exit(0);
             }
 
